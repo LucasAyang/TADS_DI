@@ -1,0 +1,37 @@
+header {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100px;
+    height: 61px;
+}
+
+.banner {
+    float: right;
+    width: 800px;
+    height: 61px;
+}
+
+
+nav {
+    background-color: white;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: #333;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}

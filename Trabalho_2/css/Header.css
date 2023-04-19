@@ -12,13 +12,6 @@ header {
     height: 61px;
 }
 
-.banner {
-    float: right;
-    width: 800px;
-    height: 61px;
-}
-
-
 nav {
     background-color: white;
     overflow: hidden;

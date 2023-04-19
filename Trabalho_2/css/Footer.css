@@ -1,4 +1,32 @@
 footer {
-    background-color: gray;
-    padding: 5px;
-}
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contato p {
+    margin: 0;
+    padding: 0;
+  }

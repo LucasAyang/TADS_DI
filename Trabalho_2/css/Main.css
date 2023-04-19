@@ -1,0 +1,40 @@
+.categoria {
+    margin: 20px;
+}
+
+.categoria h2 {
+    margin-bottom: 10px;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.produto img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.solicite {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.imagens {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: top;
+}

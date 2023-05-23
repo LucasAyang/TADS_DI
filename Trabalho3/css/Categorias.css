@@ -1,0 +1,22 @@
+.category {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category:hover {
+    transform: scale(1.1);
+}
+
+.category-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.category-image {
+    max-width: 100%;
+    height: auto;
+}

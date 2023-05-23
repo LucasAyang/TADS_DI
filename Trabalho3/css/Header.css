@@ -1,0 +1,10 @@
+header {
+            background: linear-gradient(to right, #EC3053, #FF8B8B);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .store-name {
+            margin-left: 0px;
+        }

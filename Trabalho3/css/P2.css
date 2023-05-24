@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #FFD7D7, #FFB6B6);
 }
 
 .cadastro {

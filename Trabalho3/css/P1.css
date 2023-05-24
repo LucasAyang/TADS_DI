@@ -6,10 +6,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    overflow: hidden;
 }
 
-.full-screen {
+.tela {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -18,14 +17,14 @@ body {
     background-color: #333;
 }
 
-.animation-text {
+.texto {
     text-align: center;
     color: #fff;
     opacity: 0;
-    animation: fade-in-text 8s forwards;
+    animation: fade-in-texto 8s forwards;
 }
 
-.cta-button {
+.botao {
     position: fixed;
     bottom: 20px;
     left: 50%;
@@ -37,18 +36,14 @@ body {
     border-radius: 4px;
     font-size: 18px;
     cursor: pointer;
-    animation: fade-in-button 8s forwards;
+    animation: fade-in-botao 8s forwards;
 }
 
-.cta-button:hover {
+.botao:hover {
     background-color: #ff9bac;
 }
 
-.animation {
-    animation: pulse 8s infinite;
-}
-
-@keyframes fade-in-text {
+@keyframes fade-in-texto {
     from {
         opacity: 0;
     }
@@ -58,7 +53,7 @@ body {
     }
 }
 
-@keyframes fade-in-button {
+@keyframes fade-in-botao {
     from {
         opacity: 0;
     }
@@ -68,7 +63,7 @@ body {
     }
 }
 
-@keyframes fade-in-button-hover {
+@keyframes fade-in-botao-hover {
     from {
         opacity: 1;
     }
